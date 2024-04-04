@@ -16,3 +16,9 @@ print(mylist)
 
 #reversing the list 
 print(mylist[::-1])
+
+# reversing list 2nd method 
+reverlist=[]
+for i in mylist:
+    reverlist=[i]+reverlist
+print(reverlist)
